@@ -1,0 +1,10 @@
+/* code css here */
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+li {
+    list-style-type: none;
+}
