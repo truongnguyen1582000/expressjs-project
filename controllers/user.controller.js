@@ -1,5 +1,5 @@
-var db = require('../db');
-var shortid = require('shortid');
+var db = require('../db')
+var shortid = require('shortid')
 
 module.exports.index = (req, res) => {
     res.render('users/index', {
@@ -42,7 +42,7 @@ module.exports.postCreate = (req, res) => {
     if (!req.body.phone) {
         err.push('Phone is empty');
     }
-    if (err.length) {
+    if (err.length > 0) {
         res.render('users/create', {
             errs: err,
             values: req.body

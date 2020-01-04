@@ -1,8 +1,9 @@
 /* code css here */
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
 }
 
 li {
