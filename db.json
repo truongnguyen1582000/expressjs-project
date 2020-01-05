@@ -3,107 +3,23 @@
     {
       "name": "Truong",
       "phone": "1230423",
-      "id": "Vm5RZzK7"
+      "id": "Vm5RZzK7",
+      "email": "truongnguyen1582000@gmail.com",
+      "password": "Xpeke123"
     },
     {
       "name": "Nguyen",
       "phone": "192399299",
-      "id": "aL1wEWvE"
-    },
-    {
-      "name": "Thuy",
-      "phone": "",
-      "id": "L41GU0_F"
-    },
-    {
-      "name": "Truong",
-      "phone": "",
-      "id": "qjKOyunt"
-    },
-    {
-      "name": "Xu",
-      "phone": "",
-      "id": "FufbLM6j"
-    },
-    {
-      "name": "Truong",
-      "phone": "",
-      "id": "wX9o5gvg"
+      "id": "aL1wEWvE",
+      "email": "nguyentruong1582000@gmail.com",
+      "password": "truongnguyen"
     },
     {
       "name": "Truong",
       "phone": "123",
-      "id": "alfy7IES"
-    },
-    {
-      "name": "qweqwe",
-      "phone": "",
-      "id": "NPllh9Sc"
-    },
-    {
-      "name": "",
-      "phone": "123",
-      "id": "wxnYf-XG"
-    },
-    {
-      "name": "123",
-      "phone": "123",
-      "id": "z08jxMDb"
-    },
-    {
-      "name": "ESL",
-      "phone": "",
-      "id": "VYt1WgB9"
-    },
-    {
-      "name": "ESL",
-      "phone": "0120301230",
-      "id": "SFoE7LgD"
-    },
-    {
-      "name": "rqwweqwe",
-      "phone": "",
-      "id": "81ZTTZuW"
-    },
-    {
-      "name": "rqwweqwe",
-      "phone": "0842041617",
-      "id": "4z9yryRl"
-    },
-    {
-      "name": "Jakc",
-      "phone": "34234234",
-      "id": "86VghD2m"
-    },
-    {
-      "name": "asdasd",
-      "phone": "",
-      "id": "253WYg2a"
-    },
-    {
-      "name": "asdasd",
-      "phone": "213",
-      "id": "92rUTY0t"
-    },
-    {
-      "name": "",
-      "phone": "",
-      "id": "yWX_rI3u"
-    },
-    {
-      "name": "a",
-      "phone": "1",
-      "id": "PZf9mGEy"
-    },
-    {
-      "name": "2",
-      "phone": "2",
-      "id": "MtKCXUrG"
-    },
-    {
-      "name": "qweqweqw",
-      "phone": "eqweqweqweqwe",
-      "id": "cZyDwR6N"
+      "id": "alfy7IES",
+      "email": "nguyentruong1582019@gmail.com",
+      "password": "1234"
     }
   ]
 }
