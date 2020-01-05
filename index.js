@@ -9,7 +9,7 @@ var authMiddleware = require('./middlewares/auth.middleware')
 
 // cookie
 var cookieParser = require('cookie-parser')
-app.use(cookieParser())
+app.use(cookieParser('somethinghere'))
     // cookie
 
 app.set('view engine', 'pug')
