@@ -5,6 +5,11 @@ const port = 3000
 var bodyParser = require('body-parser')
 var userRoute = require('./routes/user.route')
 
+// cookie
+var cookieParser = require('cookie-parser')
+app.use(cookieParser())
+    // cookie
+
 app.set('view engine', 'pug')
 app.set('views', './views')
 

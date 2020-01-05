@@ -8,9 +8,8 @@ module.exports.index = (req, res) => {
 };
 
 module.exports.search = (req, res) => {
-    var q = req.query.q;
-    var usersdb = db.get('users').value();
-    var matchedUsers = usersdb.filter(function(user) {
+    var q = req.query.name;
+    var matchedUsers = db.get('users').value().filter(function(user) {
         return user.name.includes(q) == 1;
     })
 
@@ -22,6 +21,8 @@ module.exports.search = (req, res) => {
 module.exports.getId = function(req, res) {
     var id = req.params.id; // take id from path
 
+    console.log(req.params);
+
     var user = db.get('users').find({ id: id }).value(); // find user have id
 
     res.render('users/view', {
@@ -30,24 +31,13 @@ module.exports.getId = function(req, res) {
 }
 
 module.exports.create = (req, res) => {
+    console.log(req.cookies);
     res.render('users/create')
 }
 
 module.exports.postCreate = (req, res) => {
     req.body.id = shortid.generate();
-    var err = [];
-    if (!req.body.name) {
-        err.push('Name is empty');
-    }
-    if (!req.body.phone) {
-        err.push('Phone is empty');
-    }
-    if (err.length > 0) {
-        res.render('users/create', {
-            errs: err,
-            values: req.body
-        })
-    }
+
     db.get('users').push(req.body).write();
     res.redirect('/users')
 }
