@@ -5,6 +5,7 @@ const port = 3000
 var bodyParser = require('body-parser')
 var userRoute = require('./routes/user.route')
 var authRoute = require('./routes/auth.route')
+var authMiddleware = require('../middlewares/auth.middleware')
 
 // cookie
 var cookieParser = require('cookie-parser')
@@ -23,7 +24,7 @@ app.get('/', (req, res) => res.render('index', {
     name: "Kratos"
 }))
 
-app.use('/users', userRoute); // route /user
+app.use('/users', authMiddleware.requireAuth, userRoute); // route /user
 
 app.use('/auth', authRoute);
 
