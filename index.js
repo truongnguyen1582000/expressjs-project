@@ -5,7 +5,7 @@ const port = 3000
 var bodyParser = require('body-parser')
 var userRoute = require('./routes/user.route')
 var authRoute = require('./routes/auth.route')
-var authMiddleware = require('../middlewares/auth.middleware')
+var authMiddleware = require('./middlewares/auth.middleware')
 
 // cookie
 var cookieParser = require('cookie-parser')
