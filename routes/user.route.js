@@ -7,11 +7,6 @@ var validate = require('../validate/user.validate')
 
 router.get('/', controller.index)
 
-router.get('/cookies', function(req, res, next) {
-    res.cookie('user-id', 1234)
-    res.send('Fucking bitch ! :))');
-})
-
 router.get('/search', controller.search)
 
 router.get('/create', controller.create)
