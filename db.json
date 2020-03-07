@@ -20,6 +20,24 @@
       "id": "alfy7IES",
       "email": "nguyentruong1582019@gmail.com",
       "password": "1234"
+    },
+    {
+      "name": "Truong",
+      "phone": "123123123123123",
+      "avatar": "Avatar-Facebook-an-danh-trang-1.jpg",
+      "id": "SG80JHMq"
+    },
+    {
+      "name": "fix",
+      "phone": "1",
+      "id": "RA9EbQgz",
+      "avatar": "uploads/3a88ebcb1369ac2c78cc84d2ba70a784"
+    },
+    {
+      "name": "asdasd",
+      "phone": "123",
+      "id": "SqZKIPKD",
+      "avatar": "uploads/26c4180e575319775f17c829d0b43244"
     }
   ],
   "products": [
@@ -202,6 +220,95 @@
       "name": "Pie Shells 10",
       "image": "https://loremflickr.com/320/240",
       "description": "justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros"
+    }
+  ],
+  "session": [
+    {
+      "id": "LqjOxSgF",
+      "cart": {
+        "317b0534-2a12-4762-be22-cf5a71bd43cb": 6,
+        "59b38332-b4ef-418b-8599-ffb5c204c580": 1,
+        "355bd5f7-ddc3-408d-bcaf-890849f2a3a2": 1,
+        "d9a36100-a676-41a9-a1ae-a9d10911eedf": 1
+      }
+    },
+    {
+      "id": "Db6L7FWN"
+    },
+    {
+      "id": "DGA3pCjZ"
+    },
+    {
+      "id": "07GCzBb-"
+    },
+    {
+      "id": "JK2zlieK"
+    },
+    {
+      "id": "dPcFZG3u"
+    },
+    {
+      "id": "w400ktH2p"
+    },
+    {
+      "id": "vdTK7iLr7"
+    },
+    {
+      "id": "0iDCNGus"
+    },
+    {
+      "id": "--BRxTt9"
+    },
+    {
+      "id": "RY6wcVl1"
+    },
+    {
+      "id": "NluH-JPe"
+    },
+    {
+      "id": "ivYSWsRIH"
+    },
+    {
+      "id": "vgvR95gMI"
+    },
+    {
+      "id": "E3pAYuiJ"
+    },
+    {
+      "id": "dwtAKOzq"
+    },
+    {
+      "id": "0V6qCaig"
+    },
+    {
+      "id": "v5hzHrey"
+    },
+    {
+      "id": "emw8F8XU"
+    },
+    {
+      "id": "rNq4znCs"
+    },
+    {
+      "id": "_Yu17RWc"
+    },
+    {
+      "id": "PjivWrad"
+    },
+    {
+      "id": "pKV74Ujn"
+    },
+    {
+      "id": "vJq-DGla"
+    },
+    {
+      "id": "A9hesMy3"
+    },
+    {
+      "id": "aXBBhikr"
+    },
+    {
+      "id": "82Lym59r"
     }
   ]
 }

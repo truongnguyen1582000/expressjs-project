@@ -1,11 +1,12 @@
-/* code css here */
-
-img {
-    width: 10%;
-    height: 10%;
-    border-radius: 50%;
+h1 {
+    color: red;
 }
 
 li {
     list-style-type: none;
+}
+
+img {
+    width: 32px;
+    border-radius: 50%;
 }
